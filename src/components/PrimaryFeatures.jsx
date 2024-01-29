@@ -22,13 +22,13 @@ import router from '@/images/screenshots/router.jpg'
 
 const features = [
   {
-    title: 'Computer Infrastructure Design & Installation',
+    title: 'Infrastructure Design & Installation',
     // description:
     //   "Keep track of everyone's salaries and whether or not they've been paid. Direct deposit not supported.",
     image: screenshotCompTech,
   },
   {
-    title: 'Computer Equipment Sales',
+    title: 'Equipment Sales',
     // description:
     //   "All of your receipts organized into one place, as long as you don't mind typing in the data by hand.",
     image: setup,
