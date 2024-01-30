@@ -1,8 +1,10 @@
 import Link from 'next/link'
+import Image from 'next/image'
 
 import { Container } from '@/components/Container'
 import { Logo } from '@/components/Logo'
 import { NavLink } from '@/components/NavLink'
+import team from '@/images/logos/team.svg'
 
 export function Footer() {
   return (
@@ -12,6 +14,15 @@ export function Footer() {
           <h1 className=" h-10 w-auto text-center text-2xl font-light">
             <span className="text-theBlue font-bold">CPS </span>Solutions
           </h1>
+          <div className="flex w-full cursor-pointer flex-col items-center justify-center rounded">
+            <a
+              href="http://get.teamviewer.com/f4kn2xp"
+              className="inline-block w-1/3 border p-5 text-center shadow"
+            >
+              <Image className="h-10" src={team} alt="" />
+              <span className="text-base">Download TeamViewer</span>
+            </a>
+          </div>
           <nav className="mt-10 text-sm" aria-label="quick links">
             <div className="-my-1 flex justify-center gap-x-6">
               <NavLink href="#features">Features</NavLink>
